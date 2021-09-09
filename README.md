@@ -18,5 +18,5 @@
 
 ## API
 
-* [a link](https://6139405b1fcce10017e78aa3.mockapi.io/teams)
+* [mock api url](https://6139405b1fcce10017e78aa3.mockapi.io/teams)
 
