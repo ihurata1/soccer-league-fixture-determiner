@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/draw_rL"
+              android:layout_marginTop="15dp"
+              android:orientation="vertical"
+              tools:context=".view.DrawActivity">
+
+    <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:id="@+id/week_count"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="Week"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            tools:ignore="Mi"></TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rv_fixture"
+            android:layout_marginTop="15dp"
+            app:layout_constraintBottom_toBottomOf="@+id/week_count"
+            app:layout_constraintEnd_toEndOf="@id/week_count"
+            app:layout_constraintStart_toStartOf="@id/week_count"
+            app:layout_constraintTop_toTopOf="@id/week_count"/>
+</LinearLayout>
